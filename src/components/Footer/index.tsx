@@ -28,22 +28,22 @@ const Footer = () => {
                 viewport={{ once: true }}
                 className="animate_top w-1/2 lg:w-1/4"
               >
-                {/* <a href="index.html" className="relative">
+                <a href="index.html" className="relative">
                   <Image
-                    width={110}
+                    src="/images/logo/logo_dark.png"
+                    alt="logo"
+                    width={200}
                     height={80}
-                    src="/images/logo/logo-light.svg"
-                    alt="Logo"
-                    className="dark:hidden"
-                  />
-                  <Image
-                    width={110}
-                    height={80}
-                    src="/images/logo/logo-dark.svg"
-                    alt="Logo"
                     className="hidden dark:block"
                   />
-                </a> */}
+                  <Image
+                    src="/images/logo/logo_light.png"
+                    alt="logo"
+                    width={200}
+                    height={80}
+                    className="dark:hidden"
+                  />
+                </a>
 
                 <p className="mb-10 mt-5">
                   create no code viral waitlist and get amazing traction on
