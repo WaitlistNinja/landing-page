@@ -57,7 +57,7 @@ const Footer = () => {
                   href="#"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
-                  info@waitlistninja.com
+                  contact@waitlistninja.com
                 </a>
               </motion.div>
 
