@@ -46,17 +46,14 @@ const Footer = () => {
                 </a>
 
                 <p className="mb-10 mt-5">
-                  create no code viral waitlist and get amazing traction on
+                  Create no-code viral waitlist and get amazing traction on
                   launch day!
                 </p>
 
                 <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px]">
                   contact
                 </p>
-                <a
-                  href="#"
-                  className="text-itemtitle font-medium text-black dark:text-white"
-                >
+                <a href="#" className="font-medium text-black dark:text-white">
                   contact@waitlistninja.com
                 </a>
               </motion.div>
