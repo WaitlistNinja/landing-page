@@ -28,7 +28,7 @@ const Footer = () => {
                 viewport={{ once: true }}
                 className="animate_top w-1/2 lg:w-1/4"
               >
-                <a href="index.html" className="relative">
+                <a href="#" className="relative">
                   <Image
                     src="/images/logo/logo_dark.png"
                     alt="logo"
@@ -53,7 +53,7 @@ const Footer = () => {
                 <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px]">
                   contact
                 </p>
-                <a href="#" className="font-medium text-black dark:text-white">
+                <a href="mailto:contact@waitlistninja.com" className="font-medium text-black dark:text-white">
                   contact@waitlistninja.com
                 </a>
               </motion.div>
