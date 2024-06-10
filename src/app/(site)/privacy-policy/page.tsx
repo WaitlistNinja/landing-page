@@ -15,7 +15,7 @@ const PrivacyPolicy = () => {
         </div>
         <div className="relative mx-auto mt-15 max-w-[1207px] px-4 md:px-8 xl:mt-20 xl:px-0 legal-doc">
             <p><b>1. Introduction</b></p>
-            <p><a href="/">WaitlistNinja</a> ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our waitlist management, referral tool, and email marketing platform ("Platform"). By accessing or using our Platform, you agree to the terms of this Privacy Policy.</p>
+            <p><a href="/">WaitlistNinja</a> (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our waitlist management, referral tool, and email marketing platform (&quot;Platform&quot;). By accessing or using our Platform, you agree to the terms of this Privacy Policy.</p>
 
             <p><b>2. Information We Collect</b></p>
             <p>We may collect and process the following types of information:</p>
@@ -91,7 +91,7 @@ const PrivacyPolicy = () => {
             <p><b>8. International Data Transfers</b></p>
             <p>Your information may be transferred to, and maintained on, computers located outside of your state, province, country, or other governmental jurisdiction where the data protection laws may differ from those in your jurisdiction. By using our Platform, you consent to the transfer of your information to such locations.</p>
 
-            <p><b>9. Children's Privacy</b></p>
+            <p><b>9. Children&apos;s Privacy</b></p>
             <p>Our Platform is not intended for use by individuals under the age of 18. We do not knowingly collect personal information from children under 18. If we become aware that we have collected personal information from a child under 18, we will take steps to delete such information.</p>
 
             <p><b>10. Changes to This Privacy Policy</b></p>

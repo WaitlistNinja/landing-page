@@ -14,11 +14,11 @@ const TermsAndConditions = () => {
           />
         </div>
         <div className="relative mx-auto mt-15 max-w-[1207px] px-4 md:px-8 xl:mt-20 xl:px-0 legal-doc">
-        <p>Welcome to <a href="/">WaitlistNinja</a>. These Terms and Conditions ("T&C") govern your use of our waitlist management and referral tool, and email marketing platform ("Platform"). By accessing or using our Platform, you agree to comply with and be bound by these T&C.</p>
+        <p>Welcome to <a href="/">WaitlistNinja</a>. These Terms and Conditions (&quot;T&C&quot;) govern your use of our waitlist management and referral tool, and email marketing platform (&quot;Platform&quot;). By accessing or using our Platform, you agree to comply with and be bound by these T&C.</p>
             
         <p><b>Definitions</b><br/>
-        "Platform": The website, mobile app, and any related services provided by <a href="/">WaitlistNinja</a>.<br/>
-        "User": Any individual or entity that registers for an account or uses the services provided by the Platform.</p>
+        &quot;Platform&quot;: The website, mobile app, and any related services provided by <a href="/">WaitlistNinja</a>.<br/>
+        &quot;User&quot;: Any individual or entity that registers for an account or uses the services provided by the Platform.</p>
         
         <p><b>Eligibility</b><br/>
         You must be at least 18 years old to use our Platform. By using our Platform, you represent and warrant that you meet this eligibility requirement. You agree to use the Platform in compliance with all local, state, national, and international laws and regulations.</p>
@@ -48,7 +48,7 @@ const TermsAndConditions = () => {
         We reserve the right to terminate or suspend user accounts at our discretion. Upon termination, your right to use the Platform will cease immediately, and we may delete your data associated with your account.</p>
 
         <p><b>Disclaimers</b><br/>
-        The Platform is provided "as is" without any warranties. We disclaim all warranties to the fullest extent permitted by law. We are not liable for any indirect, incidental, or consequential damages arising from your use of the Platform.</p>
+        The Platform is provided &quot;as is&quot; without any warranties. We disclaim all warranties to the fullest extent permitted by law. We are not liable for any indirect, incidental, or consequential damages arising from your use of the Platform.</p>
 
         <p><b>Indemnification</b><br/>
         You agree to indemnify and hold <a href="/">WaitlistNinja</a> harmless from any claims, damages, losses, liabilities, and expenses arising out of or related to your use of the Platform, your violation of these T&C, or your infringement of any intellectual property or other rights of another person or entity.</p>
