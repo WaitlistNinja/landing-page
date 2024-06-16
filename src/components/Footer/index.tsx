@@ -11,7 +11,7 @@ const Footer = () => {
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     try {
-      await axios.post("/api/newsletter-signup", { email });
+      await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/api/newsletter-signup`, { email });
       Swal.fire({
         icon: "success",
         title: "Success",
