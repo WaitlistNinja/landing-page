@@ -45,7 +45,7 @@ const Contact = () => {
       }
       const isValidForm = validateForm(formData);
       if (isValidForm) {
-        await axios.post("/api/customer-contact", formData);
+        await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/api/customer-contact`, formData);
         Swal.fire({
           icon: "success",
           title: "Success",
