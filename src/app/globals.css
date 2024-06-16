@@ -70,7 +70,7 @@
 }
 .blog-details h3 strong,
 .blog-details h3 {
-  @apply mb-10 text-xl !font-semibold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight;
+  @apply mb-5 text-xl !font-semibold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight;
 }
 
 .blog-details h4 strong,
@@ -91,14 +91,29 @@
   @apply mb-4 text-[26px] !font-bold !leading-tight text-black dark:text-white sm:text-3xl md:text-4xl;
 }
 
-.blog-details ul,
-.blog-details ol {
+.blog-details ul {
   @apply mb-10 list-inside list-disc text-titlebgdark;
+}
+
+.custom-ul-padding ul {
+  @apply mb-10 px-5
+}
+
+.blog-details ol {
+  @apply mb-10 list-inside list-decimal text-titlebgdark;
 }
 
 .blog-details li,
 .blog-details li {
   @apply mb-2 text-base text-titlebgdark dark:text-waterloo;
+}
+
+.blog-details li strong {
+  @apply mb-2 text-base text-titlebgdark dark:text-white;
+}
+
+.blog-details a {
+  @apply text-base text-primary font-bold;
 }
 
 .blog-details blockquote {
@@ -126,12 +141,12 @@ pre {
   @apply bg-stroke text-black dark:bg-blackho dark:text-white;
 }
 
-.legal-doc p{
+.legal-doc p {
   line-height: 2;
   margin-bottom: 20px;
 }
 
 .legal-doc a {
-  color: #538D22;
+  color: #538d22;
   font-weight: bold;
 }

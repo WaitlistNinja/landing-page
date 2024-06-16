@@ -1,7 +1,8 @@
 import React from "react";
 import SectionHeader from "../Common/SectionHeader";
 import BlogItem from "./BlogItem";
-import BlogData from "./blogData";
+import axios from "axios";
+import BlogData from "./blogData.json";
 
 const Blog = async () => {
   return (
