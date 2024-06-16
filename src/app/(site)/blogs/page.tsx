@@ -3,13 +3,14 @@ import React, { useState, useEffect } from "react";
 import BlogItem from "@/src/components/Blog/BlogItem";
 import axios from "axios";
 
-
 export default function BlogPage() {
   const [blogData, setBlogData] = useState([]);
   useEffect(() => {
     async function fetchBlogs() {
       try {
-        const { data } = await axios.get("/api/get-all-blogs");
+        const { data } = await axios.get(
+          `${process.env.NEXT_PUBLIC_API_URL}/api/get-all-blogs`
+        );
         setBlogData(data.blogs);
       } catch (error) {
         console.error("Error fetching blogs:", error);
